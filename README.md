@@ -9,7 +9,7 @@ O Hackathon é um evento que reúne programadores, designers e outros profission
 
 Decidimos através de uma conversa no [Slack](https://goo.gl/forms/wMtmX4v934) que precisávamos de algo para treinar nossos skills em desenvolvimento. Foi aí que surgiu a ideia de termos o nosso Hackathon! :D
 
-#Como sujerir um tema?
+##Como sujerir um tema?
 
 Para receber os temas montamos um formulário de sugestões. Basta entrar [aqui](goo.gl/forms/0JiQzc6YWu) e deixar sua dica!
 
@@ -17,11 +17,14 @@ Para receber os temas montamos um formulário de sugestões. Basta entrar [aqui]
 
 - Os participantes formarão grupos de 4 integrantes(Podendo variar conforme a quantidade de gente no dia).
 - Cada grupo poderá se organizar a sua maneira para resolver o problema levantado.
-- Os participantes só sabem a tecnologia a ser utilizada e não o problema que será resolvido, isso será sorteado na hora.
+- Os participantes só sabem a tecnologia a ser utilizada e não o problema que será resolvido, isso será sorteado na hora*.
 - Teremos 2:30 hs para resolver o problema proposto(Não esquenta a cabeça, o tema será condizente ao tempo).
 - A quantidade mínima de pessoas para acontecer um Hackathon é de 6 pessoas. Menos que isso iremos mudar a data(Mas tudo sem meta, se atingirmos a meta, a gente dobra a meta).
 
+*As tecnologias podem variar como JavaScript puro, Pré processadores específicos, um Framework, etc e isso estará na pauta do evento, porém o problema a ser solucionado será sorteado na hora(Loucura meu(minha) amigo(a)).
+
 *Os projetos desenvolvidos devem envolver as seguintes tecnologias*:
+
 **Sistemas web**: sistemas desenvolvidos para acesso através da internet, com a utilização das quaisquer tecnologias. No caso de aplicações web, estas deverão ter interface para dispositivos móveis.
 **Aplicativos mobile**: aplicativos desenvolvidos para smartphones ou tablets, devendo ser desenvolvido obrigatoriamente para pelo menos uma das seguintes plataformas: Android ou iOS. *Se for Hibrido será lindo <3!*
 
