@@ -23,6 +23,10 @@ Para receber os temas montamos um formulário de sugestões. Basta entrar [aqui]
 
 *As tecnologias podem variar como JavaScript puro, Pré processadores específicos, um Framework, etc e isso estará na pauta do evento, porém o problema a ser solucionado será sorteado na hora(Loucura meu(minha) amigo(a)).
 
+**A melhor solução irá para o nosso [repositório](https://github.com/front-abc/hackathon/tree/master/Champions) com méritos aos vencedores.**
+
+##Como será escolhido o vencedor?
+
 *Os projetos desenvolvidos devem envolver as seguintes tecnologias*:
 
 **Sistemas web**: sistemas desenvolvidos para acesso através da internet, com a utilização das quaisquer tecnologias. No caso de aplicações web, estas deverão ter interface para dispositivos móveis.
@@ -30,7 +34,7 @@ Para receber os temas montamos um formulário de sugestões. Basta entrar [aqui]
 
 **Os participantes não podem levar trabalhos prontos de casa. Devemos desenvolver tudo durante o evento!**
 
-**A melhor solução irá para o nosso [repositório](https://github.com/front-abc/hackathon/tree/master/Champions) com méritos aos vencedores.**
+Com base [nesses tópicos](https://github.com/front-abc/hackathon/blob/master/as-will-be-evaluated.md) decidiremos quem venceu!
 
 ##Programação
 
