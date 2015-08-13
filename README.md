@@ -25,6 +25,8 @@ Para receber os temas montamos um formulário de sugestões. Basta entrar [aqui]
 
 **A melhor solução irá para o nosso [repositório](https://github.com/front-abc/hackathon/tree/master/Champions) com méritos aos vencedores.**
 
+Temos algumas [regras sobre ferramentas e postura](https://github.com/front-abc/hackathon/blob/master/rules.md).
+
 ##Como será escolhido o vencedor?
 
 *Os projetos desenvolvidos devem envolver as seguintes tecnologias*:
