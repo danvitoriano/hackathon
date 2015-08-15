@@ -1,0 +1,170 @@
+/* Typography */
+
+/* Grids */
+* {
+  box-sizing: border-box;
+}
+.grid-container {
+  width : 95%;
+  margin: 0 auto;
+}
+.row:before,
+.row:after {
+  content:"";
+  display: table ;
+  clear:both;
+}
+[class*='col-'] {
+  float: left;
+  min-height: 1px;
+  width: 16.66%;
+  /*-- our gutter --*/
+  padding: 12px;
+}
+.col-1{
+  width: 16.66%;
+}
+.col-2{
+  width: 33.33%;
+}
+.col-3{
+  width: 50%;
+}
+.col-4{
+  width: 66.664%;
+}
+.col-5{
+  width: 83.33%;
+}
+.col-6{
+  width: 100%;
+}
+
+/* Helpers */
+.text-left {
+  text-align: left;
+}
+.text-right {
+  text-align: right;
+}
+
+/* Icons */
+
+/* Menu */
+/* http://www.sitepoint.com/pure-css-off-screen-navigation-menu/ */
+.mobile-menu {
+  display: none;
+}
+.menu {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 0;
+}
+.menu li {
+  display: inline-block;
+  width: 20%;
+  border: 1px solid;
+  text-align: center;
+}
+.menu-trigger {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+}
+.menu a{
+  text-decoration: none;
+}
+label[for="menu-trigger"] {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    background-size: contain;
+    z-index: 2;
+}
+label[for="menu-trigger"] > span {
+  padding: 5px;
+  width: 45px;
+  background-color: #000;
+  display: inline-block;
+  margin-right: 10px;
+}
+.menu-trigger:checked + label {
+    left: 34%;
+}
+.menu-trigger:checked ~ .main {
+    left: 200px;
+    box-shadow: 0 0 5px 5px rgba(0,0,0,0.5);
+}
+.menu-trigger + label {
+    display: none;
+}
+body {
+    overflow-x: hidden;
+}
+.menu-trigger:checked ~ .menu{
+  background: #666;
+  text-indent: 0;
+  text-align: right;
+}
+
+/* Layout */
+.main {
+  display: block;
+  height: 120px;
+  position: relative;
+  border-bottom: 1px solid #666;
+}
+.logo img {
+  background-color: #666;
+  padding: 35px;
+  position: relative;
+  left: 30%;
+  bottom: 10px;
+}
+.featured-img {
+  text-align: center;
+  padding: 0;
+}
+.featured-img img {
+  width: 200px;
+  height: 130px;
+  background-color: #666;
+  margin-bottom: 25px;
+}
+section {
+  text-align: justify;
+}
+
+/* Mobile */
+@media screen and (max-width: 768px){
+  .menu-trigger + label {
+    display: block;
+  }
+  .menu {
+    text-indent: -1000%;
+    overflow: hidden;
+  }
+  .menu li {
+    width: 100%;
+    display: block;
+    border: 0;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 767px){
+  .col-2{
+    width: 100%;
+  }
+  .logo img {
+    left: 0;
+    padding: 25px;
+  }
+}
+@media screen and (max-width: 390px){
+  .menu-trigger:checked + label {
+      left: 135px;
+  }
+}
