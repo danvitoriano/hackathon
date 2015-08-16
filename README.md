@@ -53,3 +53,5 @@ Ex.: Um exemplo se o evento começar as 15 horas...
 | 18:15 | Escolha dos melhores com base nos requisitos alcançados |
 
 ***É importante lembrar de trazer seu próprio notebook e, se possível, adaptador para seu tipo de fonte de alimentação!***
+
+##[Edições passadas](https://github.com/front-abc/hackathon/tree/master/Projects)
